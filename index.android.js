@@ -12,7 +12,7 @@ var {
   View,
 } = React;
 
-var conferencetime = React.createClass({
+var ConferenceTime = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
@@ -49,4 +49,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('conferencetime', () => conferencetime);
+AppRegistry.registerComponent('ConferenceTime', () => ConferenceTime);
