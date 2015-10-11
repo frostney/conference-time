@@ -1,25 +1,25 @@
 {
-  "NOVEMBER 3, 2015": [
-   {"time": "8:00–9:00", "title":"DOORS OPEN & Registration"},
-   {"time": "9:00–9:15", "title": "Conference opening"},
+  "NOVEMBER 3, 2015 (Tuesday)": [
+   {"time": "8:00–9:00", "title":"Doors open", "speaker": "Registration", "isBreak": true},
+   {"time": "9:00–9:15", "title": "", "speaker": "Conference opening", "isBreak": true},
    {"time": "9:15–9:45", "title": "TBD", "speaker": "James Long", "company": "Mozilla"},
-   {"time": "9:45–10:45", "title": "BIND TO THE CLOUD WITH FALCOR", "speaker": "Paul Taylor —Netflix"},
-   {"time": "10:45–11:15", "title": "Coffee Break"},
-   {"time": "11:15–11:45 ", "title": "FUNCTIONAL PROGRAMMING IN JAVASCRIPT. WHAT, WHY, AND HOW.", "speaker": "Daniel Steigerwald —VacuumLabs"},
+   {"time": "9:45–10:45", "title": "Bind to the cloud with Falcor", "speaker": "Paul Taylor", "company": "Netflix"},
+   {"time": "10:45–11:15", "title": "", "speaker": "Coffee Break", "isBreak": true},
+   {"time": "11:15–11:45 ", "title": "FUNCTIONAL PROGRAMMING IN JAVASCRIPT. WHAT, WHY, AND HOW.", "speaker": "Daniel Steigerwald", "company": "VacuumLabs"},
    {"time": "11:45–12:30", "title": "DECONSTRUCTING REACT", "speaker": "Nikita Prokopov", "company": "Datascript"},
    {"time": "12:30–13:15", "title": "THE CASE FOR CSS MODULES", "speaker": "Mark Dalgleish", "company": "SEEK"},
-   {"time": "13:15–14:15", "title": "Lunch Break"},
+   {"time": "13:15–14:15", "title": "", "speaker": "Lunch Break", "isBreak": true},
    {"time": "14:15–14:45", "title": "STATE, UI AND THE STUFF IN BETWEEN", "speaker": "Christian Alfoni"},
    {"time": "14:45–15:15", "title": "FRONT‐END CAN BE MORE FUNCTIONAL", "speaker": "Julia Gao"},
    {"time": "15:15–15:45", "title": "TBD", "speaker": "Victor Grishchenko", "company": "Swarm.js"},
    {"time": "15:45–16:15", "title": "RXJS EVOLVED", "speaker": "Paul Taylor", "company": "Netflix"},
-   {"time": "16:15–16:45", "title": "Coffee Break"},
+   {"time": "16:15–16:45", "title": "", "speaker": "Coffee Break", "isBreak": true},
    {"time": "16:45–17:15", "title": "UNIVERSAL REACT + FLUX AT SCALE", "speaker": "Rajiv Tirumalareddy", "company": "Yahoo"},
    {"time": "17:15–18:00", "title": "TBD", "speaker": "Tomas Kulich", "company": "VacuumLabs"},
    {"time": "18:00–19:00", "title": "LIGHTNING TALKS", "speaker": "Speakers announced soon"},
-   {"time": "19:00", "title": "Door Closing"}
+   {"time": "19:00", "title": "", "speaker": "Door Closing", "isBreak": true}
  ],
- "NOVEMBER 4, 2015": [
+ "NOVEMBER 4, 2015 (Wednesday)": [
    {"time": "8:30–9:00", "title": "Doors Open"},
    {"time": "9:00–9:30", "title": "REACT, TRANSPARENT REACTIVE PROGRAMMING AND MUTABLE DATA STRUCTURES", "speaker": "Michel Weststrate", "company": "Mendix"},
    {"time": "9:30–10:00", "title": "TBD", "speaker": "Mike Grabowski", "company": "Man+Moon"},

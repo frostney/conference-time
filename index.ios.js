@@ -39,7 +39,7 @@ var ConferenceTime = React.createClass({
           <Text style={{color: 'white', padding: 5, fontFamily: 'Raleway'}}>Now speaking: It's not conference time yet</Text>
         </View>
         <SearchBar />
-        <View style={{width:screen.width - 10, height: screen.height - 200, marginLeft:5}}>
+        <View style={{width:screen.width, height: screen.height - 200}}>
           <ScrollView pagingEnabled={true} horizontal={true} showsHorizontalScrollIndicator={false} bounces={true} onScroll={this.onScroll} scrollEventThrottle={16}>
             {schedule}
           </ScrollView>

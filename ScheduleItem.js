@@ -5,22 +5,31 @@ import React, {Component, StyleSheet, View, Text} from 'react-native';
 class ScheduleItem extends Component {
   static defaultProps = {
     time: 'TBD',
-    title: 'That talk',
-    speaker: 'That guy',
-    company: 'That company',
-    category: 'Something cool'
+    title: '',
+    speaker: '',
+    company: '',
+    category: '',
+    isBreak: false,
   }
 
   render() {
+    // TODO: Improve naming!
+    let scheduleStyle = [styles.scheduleColRight];
+
+    if (this.props.isBreak) {
+      scheduleStyle.push(styles.scheduleBreak);
+    }
+
     return (
       <View style={styles.scheduleRow}>
         <View style={styles.scheduleColLeft}>
           <Text style={styles.time}>{this.props.time}</Text>
+          {(this.props.category) ? <Text>{this.props.category}</Text> : null}
         </View>
-        <View style={styles.scheduleColRight}>
-          <Text style={styles.title}>{this.props.title}</Text>
-          <Text style={styles.speaker}>{this.props.speaker}</Text>
-          <Text style={styles.company}>{this.props.company}</Text>
+        <View style={scheduleStyle}>
+          {(this.props.title) ? <Text style={styles.title}>{this.props.title}</Text> : null}
+          {(this.props.speaker) ? <Text style={styles.speaker}>{this.props.speaker}</Text> : null}
+          {(this.props.company) ? <Text style={styles.company}>{this.props.company}</Text> : null}
         </View>
       </View>
     );
@@ -31,30 +40,40 @@ const styles = StyleSheet.create({
   scheduleRow: {
     borderTopWidth: 1,
     borderColor: '#ccc',
-    paddingTop: 5,
-    marginBottom: 10
+    marginBottom: 10,
+    flexDirection: 'row'
   },
   scheduleColLeft: {
-    width: 120
+    width: 120,
+    borderTopWidth: 2,
+    borderColor: '#ccc',
+    paddingTop: 5,
   },
   scheduleColRight: {
-
+    paddingTop: 7,
+    flex: 1,
+  },
+  scheduleBreak: {
+    opacity: 0.5,
   },
   time: {
     color: '#1bd982',
     fontWeight: 'bold',
-    borderTopWidth: 2,
-    borderColor: '#ccc',
+    fontSize: 16,
     fontFamily: 'Raleway'
   },
   title: {
-    fontFamily: 'Raleway'
+    fontFamily: 'Raleway',
+    color: '#212739',
   },
   speaker: {
-    fontFamily: 'Raleway'
+    fontFamily: 'Raleway',
+    fontWeight: 'bold',
+    color: '#212739',
   },
   company: {
-    fontFamily: 'Raleway'
+    fontFamily: 'Raleway',
+    color: '#212739',
   }
 });
 

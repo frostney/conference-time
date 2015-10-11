@@ -20,7 +20,7 @@ class Schedule extends Component {
         <View style={styles.header}>
           <Text style={styles.headerText}>{this.props.title}</Text>
         </View>
-        <ScrollView style={{height: 300}}>{items}</ScrollView>
+        <ScrollView style={styles.scrollContainer}>{items}</ScrollView>
       </View>
     )
   }
@@ -30,12 +30,17 @@ const styles = StyleSheet.create({
   header: {
     backgroundColor: '#1bd982',
     padding: 5,
-    marginBottom: 10,
     flex: 1,
   },
   headerText: {
     color: '#222',
     fontFamily: 'Raleway'
+  },
+  scrollContainer: {
+    paddingTop: 5,
+    paddingLeft: 5,
+    paddingRight: 5,
+    height: 300,
   },
 });
 
