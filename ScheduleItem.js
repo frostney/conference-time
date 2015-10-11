@@ -1,6 +1,7 @@
 'use strict';
 
 import React, {Component, StyleSheet, View, Text} from 'react-native';
+import Category from './Category';
 
 class ScheduleItem extends Component {
   static defaultProps = {
@@ -8,7 +9,7 @@ class ScheduleItem extends Component {
     title: '',
     speaker: '',
     company: '',
-    category: '',
+    category: -1,
     isBreak: false,
   }
 
@@ -24,7 +25,7 @@ class ScheduleItem extends Component {
       <View style={styles.scheduleRow}>
         <View style={styles.scheduleColLeft}>
           <Text style={styles.time}>{this.props.time}</Text>
-          {(this.props.category) ? <Text>{this.props.category}</Text> : null}
+          {(this.props.category >= 0) ? <Category index={this.props.category} /> : null}
         </View>
         <View style={scheduleStyle}>
           {(this.props.title) ? <Text style={styles.title}>{this.props.title}</Text> : null}
