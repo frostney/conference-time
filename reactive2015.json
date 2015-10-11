@@ -1,0 +1,43 @@
+{
+  "NOVEMBER 3, 2015": [
+   {"time": "8:00–9:00", "title":"DOORS OPEN & Registration"},
+   {"time": "9:00–9:15", "title": "Conference opening"},
+   {"time": "9:15–9:45", "title": "TBD", "speaker": "James Long", "company": "Mozilla"},
+   {"time": "9:45–10:45", "title": "BIND TO THE CLOUD WITH FALCOR", "speaker": "Paul Taylor —Netflix"},
+   {"time": "10:45–11:15", "title": "Coffee Break"},
+   {"time": "11:15–11:45 ", "title": "FUNCTIONAL PROGRAMMING IN JAVASCRIPT. WHAT, WHY, AND HOW.", "speaker": "Daniel Steigerwald —VacuumLabs"},
+   {"time": "11:45–12:30", "title": "DECONSTRUCTING REACT", "speaker": "Nikita Prokopov", "company": "Datascript"},
+   {"time": "12:30–13:15", "title": "THE CASE FOR CSS MODULES", "speaker": "Mark Dalgleish", "company": "SEEK"},
+   {"time": "13:15–14:15", "title": "Lunch Break"},
+   {"time": "14:15–14:45", "title": "STATE, UI AND THE STUFF IN BETWEEN", "speaker": "Christian Alfoni"},
+   {"time": "14:45–15:15", "title": "FRONT‐END CAN BE MORE FUNCTIONAL", "speaker": "Julia Gao"},
+   {"time": "15:15–15:45", "title": "TBD", "speaker": "Victor Grishchenko", "company": "Swarm.js"},
+   {"time": "15:45–16:15", "title": "RXJS EVOLVED", "speaker": "Paul Taylor", "company": "Netflix"},
+   {"time": "16:15–16:45", "title": "Coffee Break"},
+   {"time": "16:45–17:15", "title": "UNIVERSAL REACT + FLUX AT SCALE", "speaker": "Rajiv Tirumalareddy", "company": "Yahoo"},
+   {"time": "17:15–18:00", "title": "TBD", "speaker": "Tomas Kulich", "company": "VacuumLabs"},
+   {"time": "18:00–19:00", "title": "LIGHTNING TALKS", "speaker": "Speakers announced soon"},
+   {"time": "19:00", "title": "Door Closing"}
+ ],
+ "NOVEMBER 4, 2015": [
+   {"time": "8:30–9:00", "title": "Doors Open"},
+   {"time": "9:00–9:30", "title": "REACT, TRANSPARENT REACTIVE PROGRAMMING AND MUTABLE DATA STRUCTURES", "speaker": "Michel Weststrate", "company": "Mendix"},
+   {"time": "9:30–10:00", "title": "TBD", "speaker": "Mike Grabowski", "company": "Man+Moon"},
+   {"time": "10:00–10:45", "title": "TBD", "speaker": "Guillermo Rauch", "company": "LearnBoost, Automattic"},
+   {"time": "10:45–11:15", "title": "Coffee Break"},
+   {"time": "11:15–11:45", "title": "D3 WITH REACT", "speaker": "Andreas Savvides", "company": "Twitter"},
+   {"time": "11:45–12:15", "title": "WORK AND PLAY IN THE REACT NATIVE PLAYGROUND", "speaker": "Joshua Sierles", "company": "independent"},
+   {"time": "12:15–13:15", "title": "EFFECTS AS DATA", "speaker": "Richard Feldman", "company": "NoRedInk"},
+   {"time": "13:15–14:15", "title": "Lunch Break"},
+   {"time": "14:15–14:45", "title": "GOING REACTIVE WITH REACT.", "speaker": "François de Campredon", "company": "Fadio IT"},
+   {"time": "14:45–15:15", "title": "FORM VALIDATION MADE SIMPLE WITH REACT", "speaker": "Marcela Hrda", "company": "VacuumLabs"},
+   {"time": "15:15–15:45", "title": "FROM REACT WEB TO NATIVE MOBILE: MAPPING OUT THE UNKNOWN UNKNOWNS", "speaker": "Brent Vatne", "company": "Independent"},
+   {"time": "15:45–16:15", "title": "TBD", "speaker": "Speakers announced soon"},
+   {"time": "16:15–16:45", "title": "Coffee Break"},
+   {"time": "16:45–17:15", "title": "DATO — A FUNCTIONAL WAY TO BUILD REACTIVE APPLICATIONS", "speaker": "Sean Grove", "company": "Bushido"},
+   {"time": "17:15–18:00", "title": "CYCLE.JS AND FUNCTIONAL REACTIVE USER INTERFACES", "speaker": "Andre Staltz", "company": "Futurice"},
+   {"time": "18:00–18:30", "title": "TBD", "speaker": "Daniel Hengeveld", "company": "Github"},
+   {"time": "18:30–19:00", "title": "Closing ceremony"},
+   {"time": "19:00", "title": "Door Closing"}
+ ]
+}
