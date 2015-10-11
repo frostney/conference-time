@@ -1,6 +1,6 @@
 'use strict';
 
-import React, {Component, View, Text} from 'react-native';
+import React, {Component, View, Text, StyleSheet} from 'react-native';
 
 import categories from './categories.json';
 
@@ -13,11 +13,22 @@ class Category extends Component {
     const category = categories[this.props.index];
 
     return (
-      <View style={{backgroundColor: category.color, padding: 5}}>
-        <Text>{category.name}</Text>
+      <View style={[styles.categoryContainer, {backgroundColor: category.color}]}>
+        <Text style={styles.categoryText}>{category.name}</Text>
       </View>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  categoryContainer: {
+    borderRadius: 4,
+    padding: 5,
+  },
+  categoryText: {
+    fontFamily: 'Raleway',
+    fontWeight: 'bold',
+  }
+});
 
 export default Category;

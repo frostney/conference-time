@@ -3,6 +3,9 @@
 import React, {Component, StyleSheet, View, Text} from 'react-native';
 import Category from './Category';
 
+import categories from './categories.json';
+
+
 class ScheduleItem extends Component {
   static defaultProps = {
     time: 'TBD',
@@ -21,11 +24,20 @@ class ScheduleItem extends Component {
       scheduleStyle.push(styles.scheduleBreak);
     }
 
+    if (this.props.category >= 0) {
+      scheduleStyle.push({
+        borderTopWidth: 2,
+        paddingTop: 7,
+        borderColor: categories[this.props.category].color,
+      });
+    }
+
+
     return (
       <View style={styles.scheduleRow}>
         <View style={styles.scheduleColLeft}>
           <Text style={styles.time}>{this.props.time}</Text>
-          {(this.props.category >= 0) ? <Category index={this.props.category} /> : null}
+          {(this.props.category >= 0) ? <View style={{marginTop: 5, marginRight: 5}}><Category index={this.props.category} /></View> : null}
         </View>
         <View style={scheduleStyle}>
           {(this.props.title) ? <Text style={styles.title}>{this.props.title}</Text> : null}
@@ -42,7 +54,7 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     borderColor: '#ccc',
     marginBottom: 10,
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
   scheduleColLeft: {
     width: 120,
@@ -51,7 +63,7 @@ const styles = StyleSheet.create({
     paddingTop: 5,
   },
   scheduleColRight: {
-    paddingTop: 7,
+    paddingTop: 9,
     flex: 1,
   },
   scheduleBreak: {
