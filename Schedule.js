@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     paddingTop: 5,
     paddingLeft: 5,
     paddingRight: 5,
-    height: 300,
+    height: 316,
   },
 });
 

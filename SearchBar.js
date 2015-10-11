@@ -5,8 +5,7 @@ import React, {Component, View, TextInput, Text, StyleSheet} from 'react-native'
 class SearchBar extends Component {
   render() {
     return (
-      <View>
-        <Text>Search here...</Text>
+      <View style={styles.textContainer}>
         <TextInput style={styles.textInput} />
       </View>
     );
@@ -14,15 +13,20 @@ class SearchBar extends Component {
 }
 
 const styles = StyleSheet.create({
+  textContainer: {
+    backgroundColor: '#0f1726',
+    padding: 5,
+  },
   textInput: {
     height: 28,
     width: 180,
-    borderColor: 'black',
+    borderColor: 'white',
+    color: 'white',
     borderWidth: 1,
     borderRadius: 4,
     padding: 4,
     fontSize: 12,
-  }
+  },
 });
 
 export default SearchBar;

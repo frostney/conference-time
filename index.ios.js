@@ -34,7 +34,7 @@ var ConferenceTime = React.createClass({
 
     return (
       <View style={styles.container}>
-        <View style={{backgroundColor: '#0f1726', padding: 10}}>
+        <View style={{backgroundColor: '#0f1726', padding: 10, width: screen.width}}>
           <Image source={require('image!logo')} />
           <Text style={{color: 'white', padding: 5, fontFamily: 'Raleway'}}>Now speaking: It's not conference time yet</Text>
         </View>
